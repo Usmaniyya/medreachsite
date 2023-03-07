@@ -6,7 +6,14 @@ module.exports = {
     './app/**/*.{js,ts,jsx,tsx}',
   ],
   theme: {
-    extend: {},
+    fontFamily: {
+      poppins: ['Poppins', 'sans-serif'],
+    },
+    extend: {
+      backgroundImage: {
+        'hero-pattern': "url('/smilingblackwoman.jpeg')",
+      },
+    },
   },
   plugins: [],
 }
