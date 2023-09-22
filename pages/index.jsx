@@ -90,12 +90,7 @@ const Home = ({ id }) => {
               <p className="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-100 sm:text-4xl">
                 We provide exceptional care and service to our patients
               </p>
-              <button className="mt-6 text-gray-100 px-3 py-2 bg-indigo-600 border border-gray-100">
-                <Link className="" href="#">
-                  Book DR Now
-                </Link>
-              </button>
-            </div>
+          </div>
           </div>
         </section>
         <section className="bg-gray-100 py-20 px-10">
@@ -105,11 +100,13 @@ const Home = ({ id }) => {
                 Healthcare at your fingertip
               </h2>
               <p className="mt-2 text-lg leading-8  text-gray-600">
-                MedReach365 is your onestop to healthcare service With MedReach,
-                you can get access to your special doctors on demand from
-                different specializations and different ethnic background where
-                you can interact in your local dialect with a specialist. We are
-                the most affordable teleconsultation platform in Nigeria.
+              MedReach365 is an on demand teleconsultation platform where you can get healthcare service 
+              at the comfort of your home, consultations can take place with your laptop, tablet, or mobile phones. 
+              We have doctors in all fields of medicine. On our platform, you can consult with a medical practitioner 24 hours a day, 
+              7 days a week, and 365 days a year, with multi-lingual doctors. Our packages include a one off consultation package or a subscription package, 
+              with the lowest rates in the industry. We know how drug sourcing can sometimes be frustrating, worry no more. 
+              On our platform you can get your drugs from our partner pharmacies. You can also request for support, 
+              if you experience any difficulty using our platform, and we will reach out immediately and help resolve any issue you face.
               </p>
             </div>
           </div>
