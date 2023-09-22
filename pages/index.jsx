@@ -192,7 +192,7 @@ const Home = ({ id }) => {
           >
             <div className="flex flex-col justify-center">
               <h2 className="text-2xl md:text-left text-center text-indigo-600 font-bold tracking-wide uppercase">
-                Who can use Med Reach?
+                Who can use MedReach?
               </h2>
               <p className="mt-4 md:text-left text-center md:max-w-xl max-w-full text-xl text-gray-500 lg:mx-auto">
                 We proudly collaborate with board-certified doctors, Hospitals,
@@ -235,7 +235,7 @@ const Home = ({ id }) => {
                   </p>
                 </div>
                 <button className="px-3 py-2 text-indigo-600 border border-indigo-600 hover:text-white hover:bg-indigo-600 rounded">
-                  <Link className="" href="#">
+                  <Link className="" href="https://play.google.com/store/apps/details?id=com.medreach.com ">
                     Create Account
                   </Link>
                 </button>
