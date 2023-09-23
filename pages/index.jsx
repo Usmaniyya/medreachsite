@@ -7,18 +7,23 @@ import Contact from '../components/Contact'
 
 const teamMembers = [
   {
-    name: 'David Ruth',
-    title: 'Dentistry (Dr.)'
+    name: 'Khalid Abdullahi',
+    title: 'Medical Doctor',
+    bio: 'Dr. John Doe has been practicing medicine for over 20 years...',
     imageSrc:
-      '/d2.png'
-  }
-    name: 'Christian Ogochukwu',
-    title: 'Pharmacist',
+      'https://media.istockphoto.com/id/1203995945/photo/portrait-of-mature-male-doctor-wearing-white-coat-standing-in-hospital-corridor.jpg?s=612x612&w=0&k=20&c=Hk-dqLqHXyYa4aTqjieXNk9-HQSE8WEYUAjA1sXsy_s=',
+  },
+  {
+    name: 'Jane Smith, RN',
+    title: 'Registered Nurse',
+    bio: 'Jane Smith is a highly experienced registered nurse with...',
     imageSrc:
-      '/d1.png'
+      'https://media.istockphoto.com/id/1321677643/photo/medical-concept-of-young-beautiful-female-doctor-in-white-coat-with-phonendoscope-waist-up.jpg?s=612x612&w=0&k=20&c=1Gw9l7ztJ4nVY9Hk_BvICDbG5L7Wp7wplC3tUZS-1Dw=',
+  },
   {
     name: 'Dr. James Brown',
     title: 'Cardiologist',
+    bio: 'Dr. James Brown is a board-certified cardiologist with a...',
     imageSrc:
       'https://media.istockphoto.com/id/938438758/photo/confident-doctor-posing-at-the-hospital.jpg?s=612x612&w=0&k=20&c=dv_py_4-TfxJzzgQTELMcLrzzO0l5Xtxv4WTHhgWvmY=',
   },
