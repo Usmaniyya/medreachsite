@@ -8,7 +8,7 @@ import Contact from '../components/Contact'
 const teamMembers = [
   {
     name: 'David Ruth',
-    title: 'Medical Doctor',
+    title: 'Dentistry (Dr.)',
     bio: 'Dr. John Doe has been practicing medicine for over 20 years...',
     imageSrc:
       'https://media.istockphoto.com/id/1203995945/photo/portrait-of-mature-male-doctor-wearing-white-coat-standing-in-hospital-corridor.jpg?s=612x612&w=0&k=20&c=Hk-dqLqHXyYa4aTqjieXNk9-HQSE8WEYUAjA1sXsy_s=',
