@@ -18,14 +18,14 @@ const teamMembers = [
     title: 'Pharmacist',
     
     imageSrc:
-      'https://media.istockphoto.com/id/1321677643/photo/medical-concept-of-young-beautiful-female-doctor-in-white-coat-with-phonendoscope-waist-up.jpg?s=612x612&w=0&k=20&c=1Gw9l7ztJ4nVY9Hk_BvICDbG5L7Wp7wplC3tUZS-1Dw=',
+      '/d1.png',
   },
   {
-    name: 'Dr. James Brown',
-    title: 'Cardiologist',
-    bio: 'Dr. James Brown is a board-certified cardiologist with a...',
+    name: 'Akudo Chukwuemeka',
+    title: 'Nurse',
+    
     imageSrc:
-      'https://media.istockphoto.com/id/938438758/photo/confident-doctor-posing-at-the-hospital.jpg?s=612x612&w=0&k=20&c=dv_py_4-TfxJzzgQTELMcLrzzO0l5Xtxv4WTHhgWvmY=',
+      '/d3.png',
   },
 ]
 
