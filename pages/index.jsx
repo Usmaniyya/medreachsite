@@ -177,9 +177,7 @@ const Home = ({ id }) => {
                       {teamMember.bio}
                     </p>
                   </div>
-                  <button className="p-2 font-normal text-sm bg-indigo-600 text-white rounded">
-                    Read more
-                  </button>
+                 
                 </div>
               ))}
             </div>
