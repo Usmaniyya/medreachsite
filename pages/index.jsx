@@ -160,7 +160,7 @@ const Home = ({ id }) => {
                   <div className="w-40 h-40 rounded-full overflow-hidden mb-4">
                     <img
                       className="w-full h-full object-cover"
-                      src={teamMember.imageSrc}
+                      src=""
                       alt=""
                       loading="lazy"
                     />
