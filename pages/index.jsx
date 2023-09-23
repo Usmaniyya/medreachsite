@@ -13,8 +13,8 @@ const teamMembers = [
       'https://media.istockphoto.com/id/1203995945/photo/portrait-of-mature-male-doctor-wearing-white-coat-standing-in-hospital-corridor.jpg?s=612x612&w=0&k=20&c=Hk-dqLqHXyYa4aTqjieXNk9-HQSE8WEYUAjA1sXsy_s=',
   },
   {
-    name: 'Jane Smith, RN',
-    title: 'Registered Nurse',
+    name: 'Christian Ogochukwu',
+    title: 'Pharmacist',
     bio: 'Jane Smith is a highly experienced registered nurse with...',
     imageSrc:
       'https://media.istockphoto.com/id/1321677643/photo/medical-concept-of-young-beautiful-female-doctor-in-white-coat-with-phonendoscope-waist-up.jpg?s=612x612&w=0&k=20&c=1Gw9l7ztJ4nVY9Hk_BvICDbG5L7Wp7wplC3tUZS-1Dw=',
