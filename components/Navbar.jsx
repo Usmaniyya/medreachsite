@@ -34,7 +34,7 @@ const Navbar = () => {
             <Link href="#">Login</Link>
           </button>
           <button className="text-indigo-600 px-3 py-2 border border-indigo-600">
-            <Link href="#">Sign Up</Link>
+            <Link href="https://play.google.com/store/apps/details?id=com.medreach.com">Sign Up</Link>
           </button>
         </div>
         <div className="md:hidden" onClick={handleClick}>
