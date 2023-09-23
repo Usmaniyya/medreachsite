@@ -192,7 +192,7 @@ const Home = ({ id }) => {
           >
             <div className="flex flex-col justify-center">
               <h2 className="text-2xl md:text-left text-center text-indigo-600 font-bold tracking-wide uppercase">
-                Who can use Med Reach?
+                Who can use MedReach 365?
               </h2>
               <p className="mt-4 md:text-left text-center md:max-w-xl max-w-full text-xl text-gray-500 lg:mx-auto">
                 We proudly collaborate with board-certified doctors, Hospitals,
