@@ -7,8 +7,8 @@ import Contact from '../components/Contact'
 
 const teamMembers = [
   {
-    name: 'David Ruth',
-    title: 'Dentistry (Dr.)',
+    name: 'Dr Daniel Chukwuocha',
+    title: 'Obstetrics and gynecology',
     
     imageSrc:
       '/d2.png',
