@@ -85,7 +85,7 @@ const Home = ({ id }) => {
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="max-w-3xl mx-auto text-center">
               <h2 className="text-xl text-indigo-800 font-semibold tracking-wide uppercase">
-                Welcome to MedicalReach 365
+                Welcome to MedicalReach365
               </h2>
               <p className="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-100 sm:text-4xl">
                 We provide exceptional care and service to our patients
@@ -132,7 +132,7 @@ const Home = ({ id }) => {
                 We are dedicated to providing the best care to our patients
               </p>
               <p className="mt-4 text-lg text-gray-500 lg:mx-auto">
-                With MedReach, you can get access to affordable
+                With MedReach365, you can get access to affordable
                 teleconsultations with top-notch doctors and specialists
                 worldwide. Our partnerships and integrations allow us to deliver
                 diagnostics and medicine right to your door Healthcare for
@@ -190,7 +190,7 @@ const Home = ({ id }) => {
           >
             <div className="flex flex-col justify-center">
               <h2 className="text-2xl md:text-left text-center text-indigo-600 font-bold tracking-wide uppercase">
-                Who can use MedReach 365?
+                Who can use MedReach365?
               </h2>
               <p className="mt-4 md:text-left text-center md:max-w-xl max-w-full text-xl text-gray-500 lg:mx-auto">
                 We proudly collaborate with board-certified doctors, Hospitals,
