@@ -136,7 +136,7 @@ const Home = ({ id }) => {
                 teleconsultations with top-notch doctors and specialists
                 worldwide. Our partnerships and integrations allow us to deliver
                 diagnostics and medicine right to your door Healthcare for
-                everyone. Anytime. Anywhere.
+                everyone. Anytime. 
               </p>
             </div>
           </div>
