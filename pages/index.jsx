@@ -8,7 +8,7 @@ import Contact from '../components/Contact'
 const teamMembers = [
   {
     name: 'David Ruth',
-    title: 'Dentistry (Dr.)',
+    title: 'Dentistry (Dr.)'
     imageSrc:
       'https://media.istockphoto.com/id/1203995945/photo/portrait-of-mature-male-doctor-wearing-white-coat-standing-in-hospital-corridor.jpg?s=612x612&w=0&k=20&c=Hk-dqLqHXyYa4aTqjieXNk9-HQSE8WEYUAjA1sXsy_s=',
   },
