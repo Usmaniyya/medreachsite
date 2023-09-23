@@ -132,7 +132,7 @@ const Home = ({ id }) => {
                 We are dedicated to providing the best care to our patients
               </p>
               <p className="mt-4 text-lg text-gray-500 lg:mx-auto">
-                With MeReach, you can get access to affordable
+                With MedReach 365, you can get access to affordable
                 teleconsultations with top-notch doctors and specialists
                 worldwide. Our partnerships and integrations allow us to deliver
                 diagnostics and medicine right to your door Healthcare for
