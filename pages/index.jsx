@@ -7,7 +7,7 @@ import Contact from '../components/Contact'
 
 const teamMembers = [
   {
-    name: 'John Doe',
+    name: 'Khalid',
     title: 'Medical Doctor',
     bio: 'Dr. John Doe has been practicing medicine for over 20 years...',
     imageSrc:
