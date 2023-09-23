@@ -235,7 +235,7 @@ const Home = ({ id }) => {
                   </p>
                 </div>
                 <button className="px-3 py-2 text-indigo-600 border border-indigo-600 hover:text-white hover:bg-indigo-600 rounded">
-                  <Link className="" href="#">
+                  <Link className="" href="https://www.linkedin.com/in/ogochukwu-chidume-68558793/">
                     Create Account
                   </Link>
                 </button>
