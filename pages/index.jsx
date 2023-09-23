@@ -19,7 +19,6 @@ const teamMembers = [
   {
     name: 'Dr. James Brown',
     title: 'Cardiologist',
-    bio: 'Dr. James Brown is a board-certified cardiologist with a...',
     imageSrc:
       'https://media.istockphoto.com/id/938438758/photo/confident-doctor-posing-at-the-hospital.jpg?s=612x612&w=0&k=20&c=dv_py_4-TfxJzzgQTELMcLrzzO0l5Xtxv4WTHhgWvmY=',
   },
