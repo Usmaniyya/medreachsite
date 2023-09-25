@@ -5,6 +5,8 @@ import Navbar from '../components/Navbar'
 import Footer from '../components/Footer'
 import Contact from '../components/Contact'
 
+
+  <link rel="shortcut icon" href="/logo.png" type="image/x-icon"></link>
 const teamMembers = [
   {
     name: 'Khalid Abdullahi',
