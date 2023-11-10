@@ -47,7 +47,7 @@ const Navbar = () => {
       </nav>
       {nav && (
         <div className="md:hidden flex flex-col items-center gap-4 py-4 ease-in-out duration-300">
-          <Link className="hover:text-indigo-600" href="public/index.html">
+          <Link className="hover:text-indigo-600" href="#">
             About Us
           </Link>
           <Link className="hover:text-indigo-600" href="#">
@@ -66,7 +66,7 @@ const Navbar = () => {
               </Link>
             </button>
             <button className="bg-indigo-600 px-3 py-2 text-white">
-              <Link href="public/index.html">Login</Link>
+              <Link href="#">Login</Link>
             </button>
             <button className="text-indigo-600 px-3 py-2 border border-indigo-600">
               <Link href="#">Sign Up</Link>
