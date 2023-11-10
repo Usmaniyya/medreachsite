@@ -47,7 +47,7 @@ const Navbar = () => {
       </nav>
       {nav && (
         <div className="md:hidden flex flex-col items-center gap-4 py-4 ease-in-out duration-300">
-          <Link className="hover:text-indigo-600" href="#">
+          <Link className="hover:text-indigo-600" href="public/index.html">
             About Us
           </Link>
           <Link className="hover:text-indigo-600" href="#">
