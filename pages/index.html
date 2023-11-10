@@ -68,6 +68,10 @@
                     <header>Signup</header>
                     <form action="#">
                         <div class="field input-field">
+                            <input type="username" placeholder="username" class="username">
+                            <i class='bx bx-hide eye-icon'></i>
+                        </div>
+                        <div class="field input-field">
                             <input type="email" placeholder="Email" class="input">
                         </div>
 
@@ -75,10 +79,7 @@
                             <input type="password" placeholder="Create password" class="password">
                         </div>
 
-                        <div class="field input-field">
-                            <input type="password" placeholder="Confirm password" class="password">
-                            <i class='bx bx-hide eye-icon'></i>
-                        </div>
+                        
 
                         <div class="field button-field">
                             <button>Signup</button>
@@ -112,4 +113,53 @@
         <!-- JavaScript -->
         <script src="js/script.js"></script>
     </body>
+
+    <script type="module">
+        // Import the functions you need from the SDKs you need
+        import { initializeApp } from "https://www.gstatic.com/firebasejs/10.6.0/firebase-app.js";
+        import { getDatabase } from "https://www.gstatic.com/firebasejs/10.6.0/firebase-database.js";
+        import { getAuth, createUserWithEmailAndPassword } from "https://www.gstatic.com/firebasejs/10.6.0/firebase-auth.js";
+        // TODO: Add SDKs for Firebase products that you want to use
+        // https://firebase.google.com/docs/web/setup#available-libraries
+      
+        // Your web app's Firebase configuration
+        // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+        const firebaseConfig = {
+          apiKey: "AIzaSyCE3Jrn_wJ9DLvOZPFsuxAtWqIqHV2lWEA",
+          authDomain: "medreach-81bae.firebaseapp.com",
+          databaseURL: "https://medreach-81bae-default-rtdb.firebaseio.com",
+          projectId: "medreach-81bae",
+          storageBucket: "medreach-81bae.appspot.com",
+          messagingSenderId: "789629920826",
+          appId: "1:789629920826:web:98c6a590cb6e806629f703",
+          measurementId: "G-148NYHSSX1"
+        };
+      
+        // Initialize Firebase
+        const app = initializeApp(firebaseConfig);
+        const database = getDatabase(app);
+        const auth = getAuth();
+
+        Signup.addEventListener('click',(e) =>{
+
+            var username = document.getElementById(username).value;
+            var email = document.getElementById(email).value;
+            var password = document.getElementById(password).value;
+            
+        createUserWithEmailAndPassword(auth, email, password)
+  .then((userCredential) => {
+    // Signed up 
+    const user = userCredential.user;
+    alert('user created!');
+    // ...
+  })
+  .catch((error) => {
+    const errorCode = error.code;
+    const errorMessage = error.message;
+    alert('errorMessage');
+    // ..
+  });
+        })
+      </script>
+
 </html>
