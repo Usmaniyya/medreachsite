@@ -81,8 +81,9 @@
 
                         
 
-                        <div class="field button-field">
-                            <button>Signup</button>
+                        <div>
+                            <buttom id="Signup" value="Signup">Sign Up</buttom>
+                            
                         </div>
                     </form>
 
@@ -149,9 +150,7 @@
         createUserWithEmailAndPassword(auth, username, email, password)
   .then((userCredential) => {
     // Signed up 
-    const user = userCredential.user;
-    alert('user created!');
-    // ...
+    
   })
   .catch((error) => {
     const errorCode = error.code;
