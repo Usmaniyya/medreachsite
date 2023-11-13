@@ -85,7 +85,7 @@ const Home = ({ id }) => {
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="max-w-3xl mx-auto text-center">
               <h2 className="text-xl text-indigo-800 font-semibold tracking-wide uppercase">
-                Welcome to MedReach365
+                Welcome to MedReach3655
               </h2>
               <p className="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-100 sm:text-4xl">
                 We provide exceptional care and service to our patients
