@@ -40,18 +40,23 @@ const Footer = () => {
             <h3 className="text-lg font-bold text-white mb-4">Follow Us</h3>
             <ul className="flex">
               <li className="mr-4">
-                <a href="/" className="text-gray-200 hover:text-white">
+                <a href="https://web.facebook.com/MedReach365" className="text-gray-200 hover:text-white">
                   <FaFacebook />
                 </a>
               </li>
               <li className="mr-4">
-                <a href="/" className="text-gray-200 hover:text-white">
+                <a href="https://www.linkedin.com/company/medreach365/about" className="text-gray-200 hover:text-white">
                   <FaLinkedin />
                 </a>
               </li>
               <li className="mr-4">
-                <a href="/" className="text-gray-200 hover:text-white">
+                <a href="https://twitter.com/MedReach365" className="text-gray-200 hover:text-white">
                   <FaTwitter />
+                </a>
+              </li>
+              <li className="mr-4">
+                <a href="https://www.instagram.com/medreach365/" className="text-gray-200 hover:text-white">
+                  <FaInstagram />
                 </a>
               </li>
             </ul>
