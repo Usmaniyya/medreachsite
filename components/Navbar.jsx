@@ -14,7 +14,7 @@ const Navbar = () => {
             About Us
           </Link>
           <Link className="hover:text-indigo-600" href="#how">
-            How it Works
+            Our Partners
           </Link>
           <Link className="hover:text-indigo-600" href="#product">
             Product and Services
