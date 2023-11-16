@@ -20,7 +20,7 @@ export default function Contact() {
         />
       </div>
       <div className="md:w-2/1 w-full p-6">
-        <form
+        <form action="https://formsubmit.co/hello@medreach365.com.ng"method="POST"
           onSubmit={handleSubmit}
           className="bg-white shadow-md rounded-lg p-6"
         >
@@ -44,7 +44,7 @@ export default function Contact() {
           </div>
           <div className="mb-4">
             <label
-              htmlFor="hello@medreach365.com.ng"
+              htmlFor="email"
               className="block text-gray-700 font-bold mb-2"
             >
               Email:
