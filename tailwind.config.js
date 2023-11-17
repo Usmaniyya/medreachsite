@@ -7,11 +7,11 @@ module.exports = {
   ],
   theme: {
     fontFamily: {
-      poppins: ['Poppins', 'sans-serif'],
+      poppins: ['Open Sans', 'sans-serif'],
     },
     extend: {
       backgroundImage: {
-        'hero-pattern': "url('/smilingblackwoman.jpeg')",
+        'hero-pattern': "url('/bg-med.jpg')",
       },
     },
   },

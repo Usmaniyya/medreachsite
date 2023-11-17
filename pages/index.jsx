@@ -1,9 +1,10 @@
 import Head from 'next/head'
-import Image from 'next/image'
+import { useState } from 'react'
 import Link from 'next/link'
-import Navbar from '../components/Navbar'
-import Footer from '../components/Footer'
+import { MenuIcon, XIcon } from '@heroicons/react/outline'
+import { FaFacebook, FaLinkedin, FaTwitter, FaInstagram } from 'react-icons/fa'
 import Contact from '../components/Contact'
+import Modal from '../components/Modal'
 
 const teamMembers = [
   {
@@ -67,8 +68,14 @@ const whoCanUse = [
   },
 ]
 
-const Home = ({ id }) => {
+const Home = () => {
+  const [nav, setNav] = useState(false)
+  const handleClick = () => setNav(!nav)
+  
+  const [showModal, setShowModal] = useState(false)
+const handleModal = () => setShowModal(!showModal)
   return (
+    <>
     <div className=" h-screen flex flex-col scroll-smooth font-poppins">
       <Head>
         <title>MedReach365</title>
@@ -79,7 +86,66 @@ const Home = ({ id }) => {
           rel="stylesheet"
         />
       </Head>
-      <Navbar />
+      <div>
+      <nav className="flex items-center justify-between flex-wrap px-3">
+        <img className="w-44" src="/logo.png" alt="logo" />
+        <div className="hidden md:flex items-center gap-4 py-4">
+          <Link className="hover:text-indigo-600" href="#about">
+            About Us
+          </Link>
+          <Link className="hover:text-indigo-600" href="#how">
+            Our Partners
+          </Link>
+          <Link className="hover:text-indigo-600" href="#product">
+            Product and Services
+          </Link>
+          <Link className="hover:text-indigo-600" href="#contact">
+            Contact Us
+          </Link>
+        </div>
+        <div className="hidden md:flex items-center gap-4 py-4">
+          <button className="text-indigo-600 px-3 py-2 border border-indigo-600">
+            <Link className="hover:text-indigo-600" href="#book">
+              Book DR Now
+            </Link>
+          </button>
+          <button className="bg-indigo-600 px-3 py-2 text-white" onClick={() => setShowModal(true)}>
+           Login
+          </button>
+        </div>
+        <div className="md:hidden" onClick={handleClick}>
+          {!nav ? (
+            <MenuIcon className="w-10 text-indigo-600" />
+          ) : (
+            <XIcon className="w-10 text-indigo-600" />
+          )}
+        </div>
+      </nav>
+      {nav && (
+        <div className="md:hidden flex flex-col items-center gap-4 py-4 ease-in-out duration-300">
+          <Link className="hover:text-indigo-600" href="#">
+            About Us
+          </Link>
+          <Link className="hover:text-indigo-600" href="#">
+            How it Works
+          </Link>
+          <Link className="hover:text-indigo-600" href="#">
+            Product and Services
+          </Link>
+          <Link className="hover:text-indigo-600" href="#">
+            Contact Us
+          </Link>
+          <div className="flex gap-3">
+            <button className="text-indigo-600 px-3 py-2 border border-indigo-600">
+              <Link className="hover:text-indigo-600" href="#">
+                Book DR Now
+              </Link>
+            </button>
+            <button className="bg-indigo-600 px-3 py-2 text-white" onClick={() => setShowModal(true)}>Login</button>
+          </div>
+        </div>
+      )}
+    </div>
       <main className="flex-1">
         <section className="bg-hero-pattern bg-center bg-no-repeat bg-cover bg-fixed py-20 opacity-80">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -243,8 +309,73 @@ const Home = ({ id }) => {
         </section>
         <Contact />
       </main>
-      <Footer />
-    </div>
+      <footer className="bg-indigo-900 py-8">
+      <div className="max-w-screen-lg mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="flex flex-wrap justify-between">
+          <div className="w-full sm:w-auto mb-8 sm:mb-0">
+            <h2 className="text-xl font-bold text-white mb-4">MedReach365</h2>
+            <p className="max-w-2xl text-gray-200 leading-loose">
+              Join hands with us today to experience telemedicine that works. We
+              aim to shine the brightest on the sky of telehealth,taking with us
+              all our partners and members to enjoy the glory Book your doctor
+              today and receive your consultation from specialized doctors
+              instantly.
+            </p>
+          </div>
+          <div className="w-full sm:w-auto mb-8 sm:mb-0">
+            <h3 className="text-lg font-bold text-white mb-4">Navigation</h3>
+            <ul className="text-gray-200 leading-loose">
+              <li className="mb-2">
+                <a href="/" className="hover:text-white">
+                  Home
+                </a>
+              </li>
+              <li className="mb-2">
+                <a href="/about" className="hover:text-white">
+                  About
+                </a>
+              </li>
+              <li className="mb-2">
+                <a href="/contact" className="hover:text-white">
+                  Contact
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div className="w-full sm:w-auto">
+            <h3 className="text-lg font-bold text-white mb-4">Follow Us</h3>
+            <ul className="flex">
+              <li className="mr-4">
+                <a href="https://web.facebook.com/MedReach365" className="text-gray-200 hover:text-white">
+                  <FaFacebook />
+                </a>
+              </li>
+              <li className="mr-4">
+                <a href="https://www.linkedin.com/company/medreach365/about" className="text-gray-200 hover:text-white">
+                  <FaLinkedin />
+                </a>
+              </li>
+              <li className="mr-4">
+                <a href="https://twitter.com/MedReach365" className="text-gray-200 hover:text-white">
+                  <FaTwitter />
+                </a>
+              </li>
+              <li className="mr-4">
+                <a href="https://www.instagram.com/medreach365/" className="text-gray-200 hover:text-white">
+                  <FaInstagram />
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <p className="text-gray-100 text-center mt-8 text-base">
+          Copyright &copy; 2023, MedReach365. All rights reserved{' '}
+        </p>
+      </div>
+    </footer>
+      </div>
+      <Modal isVisible={ showModal} onClose={() =>setShowModal(false)} />
+      </>
   )
 }
 
