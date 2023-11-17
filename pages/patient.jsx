@@ -12,7 +12,7 @@ const patient = () => {
         </div>
         <button type="submit" className='w-full mt-2 p-2 bg-indigo-600 hover:bg-indigo-400 text-white text-center text-lg boder-none'>Send OTP</button>
         <div className="flex flex-col gap-1">
-          <label htmlFor="phone-number" id="number" placeholder="+2348***********">Enter OTP</label>
+          <label htmlFor="phone-number" id="Entotp" >Enter OTP</label>
           <input type="text" className="p-2 text-dark border border-solid border-indigo-500 outline-none rounded"/>
         </div>
         <button type="submit" className='w-full mt-2 p-2 bg-indigo-600 hover:bg-indigo-400 text-white text-center text-lg boder-none'>Verify OTP</button>
