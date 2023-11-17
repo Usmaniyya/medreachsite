@@ -13,7 +13,7 @@ const Doctor = () => {
         </div>
         <div className="flex flex-col gap-1">
           <label htmlFor="password">Password</label>
-          <input type="password" className="p-2 text-dark border border-solid border-indigo-500 outline-none rounded"/>
+          <input type="password" placeholder="Password" className="p-2 text-dark border border-solid border-indigo-500 outline-none rounded"/>
         </div>
         <button type="submit" className='w-full mt-2 p-2 bg-indigo-600 hover:bg-indigo-400 text-white text-center text-lg boder-none'>Submit</button>
         <div className="flex justify-between items-center mt-2">
