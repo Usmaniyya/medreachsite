@@ -16,7 +16,7 @@ const Modal = ({ isVisible, onClose }) => {
           <Link href="/patient">Patient</Link>
           </button>
           <button className='hover:bg-white border border-1 border-solid hover:border-indigo-700 hover:text-indigo-700 bg-indigo-700 text-white p-2 px-6'>
-          <Link href="/drug">Drug Suppliers</Link>
+          <Link href="/drug">Drug Store</Link>
           </button>
         </div>
       </div>
