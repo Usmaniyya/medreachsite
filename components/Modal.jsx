@@ -86,7 +86,7 @@ const Modal = ({ isVisible, onClose }) => {
     <p>Info About the pen</p>
   </div>
 </div>
-)
+  )
 }
 
 
