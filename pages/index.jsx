@@ -72,8 +72,7 @@ const Home = () => {
   const [nav, setNav] = useState(false)
   const handleClick = () => setNav(!nav)
   
-  const [showModal, setShowModal] = useState(false)
-const handleModal = () => setShowModal(!showModal)
+  
   return (
     <>
     <div className=" h-screen flex flex-col scroll-smooth font-poppins">
@@ -109,7 +108,9 @@ const handleModal = () => setShowModal(!showModal)
               Book DR Now
             </Link>
           </button>
-          
+          <button> 
+           Login
+          </button>
         </div>
         <div className="md:hidden" onClick={handleClick}>
           {!nav ? (
@@ -139,7 +140,7 @@ const handleModal = () => setShowModal(!showModal)
                 Book DR Now
               </Link>
             </button>
-            
+            <button >Login</button>
           </div>
         </div>
       )}
