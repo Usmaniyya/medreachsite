@@ -141,7 +141,7 @@ const handleModal = () => setShowModal(!showModal)
                 Book DR Now
               </Link>
             </button>
-            <button className="bg-indigo-600 px-3 py-2 text-white" onClick={() => setShowModal(true)}>Login</button>
+            <button >Login</button>
           </div>
         </div>
       )}
