@@ -109,9 +109,7 @@ const handleModal = () => setShowModal(!showModal)
               Book DR Now
             </Link>
           </button>
-          <button> 
-           Login
-          </button>
+          
         </div>
         <div className="md:hidden" onClick={handleClick}>
           {!nav ? (
@@ -141,7 +139,7 @@ const handleModal = () => setShowModal(!showModal)
                 Book DR Now
               </Link>
             </button>
-            <button >Login</button>
+            
           </div>
         </div>
       )}
