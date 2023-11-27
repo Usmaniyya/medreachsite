@@ -3,6 +3,7 @@ import Link from 'next/link';
 import Tabs from './Tabs'
 import { XIcon } from '@heroicons/react/outline'
 
+
 const Modal = ({ isVisible, onClose }) => {
   const [email, setEmail] = useState("")
   const [password, setPassword] = useState("")
@@ -66,11 +67,63 @@ const Modal = ({ isVisible, onClose }) => {
   return (
     <div className='fixed inset-0 bg-black bg-opacity-25 backdrop-blur-sm flex justify-center items-center rounded'>
       <div className='w-[600px] bg-white p-6'>
-       <XIcon className='w-12 text-indigo-700 cursor-pointer outline-none border-none p-2 text-lg' onClick={()=> onClose()} />
-          <Tabs tabs={tabs} />
+          <XIcon className='w-16 text-indigo-700 text-right cursor-pointer outline-none border-none p-2 text-lg' onClick={()=> onClose()} />
+        <div className='flex flex-col gap-4 justify-center items-center mt-2'>
+          <button className='hover:bg-white border border-1 border-solid hover:border-indigo-700 hover:text-indigo-700 bg-indigo-700 text-white p-2 px-6'>
+          <Link href="/doctor">Medical Practitioner</Link>
+          </button>
+          <button className='hover:bg-white border border-1 border-solid hover:border-indigo-700 hover:text-indigo-700 bg-indigo-700 text-white p-2 px-6'>
+          <Link href="/patient">Patient</Link>
+          </button>
+          <button className='hover:bg-white border border-1 border-solid hover:border-indigo-700 hover:text-indigo-700 bg-indigo-700 text-white p-2 px-6'>
+          <Link href="/drug">Drug Suppliers</Link>
+          </button>
+        </div>
       </div>
     </div>
   )
 }
 
+
 export default Modal
+const signIn = document.querySelector("#signInButton");
+const signUp = document.querySelector("#signUpButton");
+const signInForm = document.querySelector(".container .sign-in-form");
+const signUpForm = document.querySelector(".container .sign-up-form");
+const overlay_container = document.querySelector(
+  ".container .overlay-container"
+);
+const overlay = document.querySelector(
+  ".container .overlay-container .overlay"
+);
+
+signIn.addEventListener("click", () => {
+  overlay_container.style.transform = "translateX(100%)";
+  overlay.style.transform = "translateX(-50%)";
+  signInForm.classList.add("active");
+  signUpForm.classList.remove("active");
+});
+signUp.addEventListener("click", () => {
+  overlay_container.style.transform = "translateX(0)";
+  overlay.style.transform = "translateX(0)";
+  signUpForm.classList.add("active");
+  signInForm.classList.remove("active");
+});
+
+// *********************
+// This Code is for only the floating card in right bottom corner
+// **********************
+
+const WebCifarIcon = document.querySelector("#webCifar-icon");
+const WebCifarEl = document.querySelector("#webCifar");
+const close = WebCifarEl.querySelector(".close");
+const youtubeLink = document.querySelector(".youtubeLink");
+
+WebCifarIcon.addEventListener("click", () => {
+  WebCifarEl.classList.add("active");
+});
+close.addEventListener("click", () => {
+  WebCifarEl.classList.remove("active");
+});
+
+youtubeLink.setAttribute("href", "https://youtu.be/7FbpuWOffc0");
