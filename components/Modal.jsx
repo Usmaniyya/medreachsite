@@ -45,7 +45,7 @@ const Modal = ({ isVisible, onClose }) => {
       </div>
     },
     {
-       label: "Patient",
+       label: "Patients",
       content: <div className='p-4'>
         <form className='w-full p-4'>
           <div className='flex justify-between gap-4'>
