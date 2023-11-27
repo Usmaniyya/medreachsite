@@ -38,7 +38,7 @@ const Modal = ({ isVisible, onClose }) => {
             </div>
             <button type='submit' className='w-1/2 py-2 border-none bg-indigo-700 hover:bg-indigo-400 text-white'>Login</button>
             <div className='flex gap-12 items-center justify-between mt-2'>
-              <Link href='' className='text-indigo-700 hover:text-indigo-400'>Create accoun</Link>
+              <Link href='' className='text-indigo-700 hover:text-indigo-400'>Create account</Link>
               <Link href='' className='text-indigo-700 hover:text-indigo-400'>Forgot password</Link>
             </div>
           </div>
