@@ -87,7 +87,7 @@ const handleModal = () => setShowModal(!showModal)
         />
       </Head>
       <div>
-      <nav className="flex items-center justify-between flex-wrap px-3">
+      <nav className="flex items-center justify-between flex-wrap px-6">
         <img className="w-44" src="/logo.png" alt="logo" />
         <div className="hidden md:flex items-center gap-4 py-4">
           <Link className="hover:text-indigo-600" href="#about">
